@@ -7,17 +7,20 @@
 	</head>
 	<body>
 		<div id="wrapper">
+			<br>
+			<button id="promeni" onclick="myFunction()">promeni</button>
+			<br>
+			<div id="logo"></div>
 			<header>
-				<div id="logo"></div>
 				<div id="banner">
-					<h3>&nbsp;Corporate and modern theme</h3>
+					<h3 id="zaPromenu">&nbsp;Corporate and modern theme</h3>
 				</div>
 				<br class="cls">
 				<div id="menu">
 					<div class="menuitem">
 						<a class="meni-link" href="#">
 						<div class="big">
-							Home
+							Home 
 						</div>
 						<div class="desc">
 							Welcome
@@ -127,5 +130,11 @@
 				</div>
 			</footer>
 		</div>
+		<script type="text/javascript">
+			function myFunction() {
+				var x = document.getElementsByTagName("zaPromenu");
+				document.getElementById("zaPromenu").innerHTML = "Korporativna i moderna tema";
+			}
+		</script>
 	</body>
 </html>
