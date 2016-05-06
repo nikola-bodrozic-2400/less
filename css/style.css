@@ -1,0 +1,160 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: coral;
+}
+#wrapper {
+  margin: 0 auto;
+  width: 1200px;
+}
+#header {
+  width: 100%;
+  height: 150px;
+  background: red;
+}
+#logo {
+  float: left;
+  width: 120px;
+  height: 120px;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background: yellow;
+  background-image: url(../images/logo.png);
+}
+#banner {
+  float: right;
+  width: 768px;
+  height: 80px;
+  margin-top: 35px;
+  margin-right: 15px;
+  background: #4d926f;
+}
+.cls {
+  clear: both;
+}
+#menu {
+  height: 88px;
+  background: purple;
+  width: 100%;
+}
+.menuitem {
+  float: left;
+  margin-left: 15px;
+  text-align: left;
+  font-size: 20px;
+  background: orange;
+  height: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.menuitem:hover {
+  float: left;
+  margin-left: 15px;
+  text-align: left;
+  font-size: 20px;
+  color: white;
+  background: orange;
+  height: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: #9DC02E;
+}
+.menuitem:active {
+  float: left;
+  margin-left: 15px;
+  text-align: left;
+  font-size: 20px;
+  background: orange;
+  height: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: #9DC02E;
+}
+/* picture holder */
+#ph {
+  height: 380px;
+  background: #4d926f;
+  background-image: url(../images/centralna.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#ispod-cent-slike {
+  height: 68px;
+  background: blue;
+}
+#tri-boxa {
+  height: 420px;
+  background: gray;
+}
+.box {
+  float: left;
+  margin-left: 36px;
+  width: 348px;
+  height: 400px;
+  background: #800080;
+  margin-top: 8px;
+}
+.innerbox {
+  margin: 8px;
+  border-right: 8px;
+}
+#footer {
+  height: 400px;
+  background: yellow;
+  float: left;
+}
+.big {
+  font-size: 20px;
+  line-height: 25px;
+}
+.desc {
+  font-size: 12px;
+  line-height: 55px;
+}
+#natpis {
+  margin: 4px;
+  background: red;
+  width: 700px;
+  display: inline-block;
+  height: 60px;
+}
+#dugme {
+  margin: 4px;
+  background: red;
+  width: 300px;
+  display: inline-block;
+  height: 20px;
+  position: relative;
+  top: 8px;
+}
+.rm {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 4px solid #800000;
+  width: 150px;
+  background-color: #DDD;
+}
+.fbox {
+  width: 400px;
+  height: 400px;
+  float: left;
+}
+.fibox {
+  width: 380px;
+  height: 380px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: black;
+  color: white;
+}
+.meni-link {
+  text-decoration: none;
+  display: block;
+}
+.meni-link:hover {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
